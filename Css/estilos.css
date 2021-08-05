@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: #373540;
+  color: #d98d8d;
+  font-size: 30px;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.contenedor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contenedor div {
+  border: 1px;
+  padding: 12px;
+}
+
+.caja-1 {
+  flex: 10;
+}
+
+.menu {
+  display: flex;
+}
+
+.caja-2 {
+  flex: 2;
+}
+
+.caja-3 {
+  flex: 2;
+}
+
+.caja-4 {
+  flex: 2;
+}
+
+.imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trabajos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trabajos-titulo {
+  background: #ffb69e;
+  color: #373540;
+  margin: 30px;
+  padding: 10px 700px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.trabajos-items {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.tarea {
+  /* padding: 30px; */
+  align-items: center;
+  background-color: #373540;
+  border-radius: 8px;
+  border: 1px solid #f79e81;
+  color: #d98d8d;
+  display: flex;
+  font-size: 50px;
+  flex: 0 0 25%;
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 50px;
+  max-width: 400px;
+  width: 400px;
+}
+
+.w-100 {
+  width: 100%;
+}
